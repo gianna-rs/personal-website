@@ -4,5 +4,29 @@ body{
 
 h1{
     text-align: center;
+    color: #51408C;
 }
 
+.wrapper {
+    position: relative;
+  }
+
+#colorblock1{
+    position: relative;
+    background-color: #51408C;
+    padding: 10%;
+    width: 70%;
+    margin: 0 2rem;
+    border-radius: 25%;
+    z-index: 2;
+}
+
+#colorblock2{
+    position: absolute;
+    background-color: #18A1B4;
+    padding: 10%;
+    width: 70%;
+    margin: 0 2rem;
+    border-radius: 25%;
+    z-index: 1
+}
