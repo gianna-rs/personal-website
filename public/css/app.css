@@ -1,10 +1,13 @@
 body{
     font-family: 'Questrial', sans-serif;
+    background-color: whitesmoke;
 }
-
-h1{
+.name{
+    margin-top: 2rem;
+}
+.name h1{
     text-align: center;
-    color: #51408C;
+    color: whitesmoke;
 }
 
 .wrapper {
@@ -12,21 +15,38 @@ h1{
   }
 
 #colorblock1{
-    position: relative;
-    background-color: #51408C;
-    padding: 10%;
+    position: absolute;
+    background-color: #6639a6;
+    height: 150px;
+    /* padding: 10%; */
     width: 70%;
-    margin: 0 2rem;
-    border-radius: 25%;
-    z-index: 2;
+    /* margin: 0 2rem; */
+    z-index: 1;
 }
 
 #colorblock2{
-    position: absolute;
-    background-color: #18A1B4;
-    padding: 10%;
+    position: absolute; left: 15%;
+    background-color: #3490de;
+    /* padding-top: 10%; */
     width: 70%;
-    margin: 0 2rem;
-    border-radius: 25%;
-    z-index: 1
+    height: 150px;
+    margin-top: 5%;
+    z-index: 2;
+}
+
+#titlecontent{
+    position: absolute;
+    z-index: 3;
+    margin-top: 100px;
+}
+
+.headshot{
+    position: relative;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.headshot img{
+    max-width: 50%;
+    align-content: center;
+    padding-top: 1rem;
 }
